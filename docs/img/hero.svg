@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="960" height="420" role="img" aria-label="Talkie: real-time chat with friends">
+  <defs>
+    <clipPath id="clip"><rect width="960" height="420" rx="26"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12151b"/><stop offset=".55" stop-color="#1b1a3a"/><stop offset="1" stop-color="#0f2a2c"/></linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#f43098" stop-opacity=".5"/><stop offset="1" stop-color="#f43098" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#605dff" stop-opacity=".55"/><stop offset="1" stop-color="#605dff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g3"><stop offset="0" stop-color="#00d3bb" stop-opacity=".35"/><stop offset="1" stop-color="#00d3bb" stop-opacity="0"/></radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff7ac0"/><stop offset=".5" stop-color="#9d9bff"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <linearGradient id="out" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a78ff"/><stop offset="1" stop-color="#605dff"/></linearGradient>
+  </defs>
+  <g clip-path="url(#clip)" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect width="960" height="420" fill="url(#bg)"/>
+    <circle cx="110" cy="90" r="190" fill="url(#g1)"><animate attributeName="opacity" values=".55;1;.55" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="330" r="210" fill="url(#g2)"><animate attributeName="opacity" values="1;.55;1" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="400" r="200" fill="url(#g3)"/>
+
+    <!-- Talkie logo (same paths as frontend/src/components/svg/Logo.jsx) -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4s" repeatCount="indefinite"/>
+      <g transform="translate(78 84) scale(.148)"><g transform="translate(0 1127) scale(.1 -.1)" fill="#ffffff"><path d="M12 7233 l3 -4038 2066 -3 2066 -2 469 -383 c2773 -2263 3416 -2787 3425 -2787 5 0 9 592 9 1585 l0 1585 1240 0 1240 0 0 795 0 795 -345 0 -345 0 0 -450 0 -450 -1240 0 -1240 0 -2 -1210 -3 -1210 -1050 857 c-577 471 -1248 1016 -1490 1210 l-440 353 -1837 0 -1838 0 0 3350 0 3350 4570 0 4570 0 0 -2800 0 -2800 345 0 345 0 0 513 0 512 217 217 218 217 465 -729 464 -730 408 0 c224 0 408 2 408 5 0 3 -279 431 -621 951 -341 520 -618 951 -616 958 4 8 860 941 1055 1149 l26 27 -407 0 -406 0 -603 -621 -603 -621 -3 2221 -2 2221 -5260 0 -5260 0 2 -4037z"/><path d="M13553 9475 c-170 -46 -292 -172 -324 -333 -40 -209 69 -406 269 -483 118 -46 290 -36 406 23 60 30 153 124 181 182 79 162 46 367 -77 489 -119 117 -296 165 -455 122z"/><path d="M8200 7230 l0 -2250 345 0 345 0 0 2250 0 2250 -345 0 -345 0 0 -2250z"/><path d="M1810 8525 l0 -455 -340 0 -340 0 2 -282 3 -283 337 -3 337 -2 4 -878 c3 -956 3 -944 63 -1129 94 -290 311 -488 623 -570 129 -34 378 -43 526 -20 147 24 364 92 434 136 12 8 5 53 -46 283 -33 150 -64 272 -69 271 -5 -1 -47 -16 -94 -33 -241 -84 -485 -55 -614 73 -53 53 -77 98 -108 198 -22 74 -22 78 -26 871 l-3 798 428 2 428 3 3 283 2 282 -430 0 -430 0 0 455 0 455 -345 0 -345 0 0 -455z"/><path d="M5255 8159 c-593 -81 -1058 -468 -1250 -1042 -149 -446 -116 -978 86 -1380 79 -158 161 -269 294 -403 214 -214 444 -341 730 -403 283 -62 610 -50 865 31 225 72 437 215 591 401 l49 58 2 -218 3 -218 305 0 305 0 3 1548 2 1547 -307 -2 -308 -3 -5 -213 -5 -214 -55 67 c-60 73 -180 178 -275 242 -129 87 -273 145 -454 184 -111 24 -455 35 -576 18z m573 -623 c351 -88 599 -335 688 -684 69 -272 45 -583 -62 -811 -154 -329 -446 -519 -824 -537 -538 -26 -942 310 -1021 848 -19 127 -7 370 24 489 46 175 123 315 241 438 140 144 309 232 525 272 72 13 357 3 429 -15z"/><path d="M16075 8155 c-194 -31 -339 -77 -500 -157 -158 -80 -268 -160 -405 -298 -140 -139 -221 -252 -300 -415 -224 -465 -224 -1073 0 -1530 341 -697 1129 -1006 2041 -800 234 52 475 150 631 254 43 29 80 56 83 62 4 5 -53 119 -125 254 l-131 244 -82 -56 c-209 -143 -479 -233 -752 -253 -671 -47 -1129 279 -1171 833 l-7 87 1236 0 1236 0 8 38 c4 20 8 138 8 262 -1 196 -4 239 -23 330 -66 301 -180 524 -374 725 -203 211 -451 345 -755 406 -141 28 -480 36 -618 14z m540 -554 c206 -55 370 -182 453 -351 50 -101 71 -178 79 -282 l6 -78 -875 0 -875 0 9 55 c26 168 95 304 217 426 130 129 282 209 469 244 118 22 412 14 517 -14z"/><path d="M13330 6525 l0 -1545 345 0 345 0 0 1545 0 1545 -345 0 -345 0 0 -1545z"/></g></g>
+    </g>
+    <text x="78" y="304" font-size="21" font-weight="700" fill="url(#title)">Real-time chat with your friends</text>
+    <text x="78" y="332" font-size="14.5" fill="#b6bccb">Messages, photos, friend requests and themes.</text>
+    <g font-size="12" fill="#d7dbe6">
+      <rect x="78" y="352" width="84" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="120" y="369" text-anchor="middle">Socket.IO</text>
+      <rect x="170" y="352" width="66" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="203" y="369" text-anchor="middle">React</text>
+      <rect x="244" y="352" width="78" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="283" y="369" text-anchor="middle">Express</text>
+      <rect x="330" y="352" width="84" height="26" rx="13" fill="#fff" fill-opacity=".08" stroke="#fff" stroke-opacity=".14"/><text x="372" y="369" text-anchor="middle">MongoDB</text>
+    </g>
+
+    <!-- chat window -->
+    <rect x="440" y="48" width="472" height="324" rx="20" fill="#191e24" stroke="#343b47"/>
+    <rect x="440" y="48" width="472" height="324" rx="20" fill="url(#glass)"/>
+    <line x1="590" y1="48" x2="590" y2="372" stroke="#2b323d"/>
+    <text x="458" y="80" font-size="14" font-weight="700" fill="#f3f4f6">Friends</text>
+    <rect x="456" y="92" width="118" height="24" rx="12" fill="#11151a" stroke="#2b323d"/><text x="470" y="108" font-size="11" fill="#6b7280">Search…</text>
+    
+      <rect x="452" y="125" width="126" height="42" rx="12" fill="#fff" fill-opacity=".07"/>
+      <circle cx="476" cy="146" r="13" fill="#f43098"/><circle cx="476" cy="143" r="4.6" fill="#ffd0e8"/><path d="M467.5 155 a8.5 7 0 0 1 17 0" fill="#ffd0e8"/>
+      <circle cx="486" cy="155" r="4.2" fill="#22c55e" stroke="#191e24" stroke-width="2"/>
+      <text x="497" y="150.5" font-size="12.5" fill="#e5e7eb">Elif</text>
+      
+    
+      
+      <circle cx="476" cy="192" r="13" fill="#00d3bb"/><circle cx="476" cy="189" r="4.6" fill="#d5fff9"/><path d="M467.5 201 a8.5 7 0 0 1 17 0" fill="#d5fff9"/>
+      <circle cx="486" cy="201" r="4.2" fill="#22c55e" stroke="#191e24" stroke-width="2"/>
+      <text x="497" y="196.5" font-size="12.5" fill="#e5e7eb">Mert</text>
+      <circle cx="566" cy="192" r="8.5" fill="#f43098"><animate attributeName="r" values="8.5;10;8.5" dur="1.800s" repeatCount="indefinite"/></circle><text x="566" y="196" font-size="10.5" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+    
+      
+      <circle cx="476" cy="238" r="13" fill="#f59e0b"/><circle cx="476" cy="235" r="4.6" fill="#fff0cf"/><path d="M467.5 247 a8.5 7 0 0 1 17 0" fill="#fff0cf"/>
+      
+      <text x="497" y="242.5" font-size="12.5" fill="#e5e7eb">Deniz</text>
+      
+    <rect x="456" y="330" width="118" height="26" rx="13" fill="#605dff" fill-opacity=".18" stroke="#605dff" stroke-opacity=".6"/><text x="515" y="347" font-size="11.5" fill="#c9c8ff" text-anchor="middle">+ Add friend</text>
+
+    <circle cx="616" cy="76" r="13" fill="#f43098"/><circle cx="616" cy="73" r="4.6" fill="#ffd0e8"/><path d="M607.5 85 a8.5 7 0 0 1 17 0" fill="#ffd0e8"/>
+    <text x="638" y="74" font-size="13.5" font-weight="700" fill="#f3f4f6">Elif</text>
+    <circle cx="642" cy="87" r="3.5" fill="#22c55e"><animate attributeName="opacity" values="1;.35;1" dur="1.600s" repeatCount="indefinite"/></circle>
+    <text x="650" y="91" font-size="11" fill="#9ca3af">Online</text>
+    <line x1="590" y1="104" x2="912" y2="104" stroke="#2b323d"/>
+
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.05;0.10;.95;1" dur="9s" repeatCount="indefinite"/>
+      <path d="M606 122 h170 a14 14 0 0 1 14 14 v8 a14 14 0 0 1 -14 14 h-156 a14 14 0 0 1 -14 -14 z" fill="#2a323c"/>
+      <text x="620" y="145" font-size="13" fill="#e5e7eb">Hey! Tried Talkie yet?</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.25;0.30;.95;1" dur="9s" repeatCount="indefinite"/>
+      <path d="M896 172 v22 a14 14 0 0 1 -14 14 h-156 a14 14 0 0 1 -14 -14 v-8 a14 14 0 0 1 14 -14 z" fill="url(#out)"/>
+      <text x="726" y="195" font-size="13" fill="#fff">Yes, it is instant! Look:</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.42;0.47;.95;1" dur="9s" repeatCount="indefinite"/>
+      <rect x="776" y="216" width="120" height="70" rx="14" fill="url(#out)"/>
+      <rect x="781" y="221" width="110" height="60" rx="10" fill="#1b2a4a"/>
+      <circle cx="869" cy="238" r="7" fill="#fde68a"/>
+      <path d="M781 281 v-12 l26 -24 l22 20 l14 -11 l48 27 z" fill="#00d3bb" fill-opacity=".75"/>
+      <path d="M781 281 v-4 l40 -18 l30 14 l40 -6 v14 z" fill="#605dff" fill-opacity=".8"/>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.65;.95;1" dur="9s" repeatCount="indefinite"/>
+      <path d="M606 296 h120 a14 14 0 0 1 14 14 v2 a14 14 0 0 1 -14 14 h-106 a14 14 0 0 1 -14 -14 z" fill="#2a323c"/>
+      <text x="620" y="316" font-size="13" fill="#e5e7eb">Wow, love it!</text>
+    </g>
+
+    <rect x="604" y="334" width="254" height="28" rx="14" fill="#11151a" stroke="#2b323d"/>
+    <text x="620" y="352" font-size="12" fill="#6b7280">Type a message…</text>
+    <circle cx="880" cy="348" r="14" fill="#605dff"/>
+    <path d="M874 348 l13 -6 l-4 12 l-3 -5 z" fill="#fff"/>
+  </g>
+</svg>
